@@ -41,7 +41,7 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log('Connected to MongoDB');
+    console.log('Connected to Anjay');
     app.listen(PORT, () => {
       console.log(`Server is running on port ${PORT}`);
     });
