@@ -11,7 +11,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
-  const unusedVariable = "aditya"
+  // const unusedVariable = "aditya"
 
   // Fetch tasks on component mount
   useEffect(() => {
