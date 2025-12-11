@@ -14,8 +14,6 @@ services:
         VITE_API_URL: http://51.20.250.75:5000/api
     container_name: client
     restart: always
-    env_file:
-      - ./client/.env
     ports:
       - "5173:5173"
     depends_on:
