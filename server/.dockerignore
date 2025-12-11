@@ -1,0 +1,48 @@
+# Node modules
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun.lockb
+
+# Output / build folders
+dist
+build
+.out
+.next
+coverage
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+*.swp
+*.swo
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+
+# Local cache
+*.cache
+.cache
+.parcel-cache
+
+# Logs
+logs
+*.log
+
+# Temporary
+tmp
+temp

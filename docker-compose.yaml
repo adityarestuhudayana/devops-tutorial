@@ -8,7 +8,10 @@ services:
     ports:
       - "5000:5000"
   frontend:
-    build: ./client
+    build:
+      context: ./client
+      args:
+        VITE_API_URL: http://51.20.250.75:5000/api
     container_name: client
     restart: always
     env_file:
