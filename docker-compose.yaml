@@ -11,7 +11,7 @@ services:
     build:
       context: ./client
       args:
-        VITE_API_URL: http://51.20.250.75:5000/api
+        VITE_API_URL: http://13.48.138.114:5000/api
     container_name: client
     restart: always
     ports:
