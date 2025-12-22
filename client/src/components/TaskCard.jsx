@@ -11,7 +11,7 @@ const TaskCard = ({ task, onDelete }) => {
     if (window.confirm('Are you sure you want to delete this task?')) {
       setIsDeleting(true);
       try {
-        await onDelete(task.id);
+        await onDelete(task._id);
       } catch (error) {
         console.error('Error deleting task:', error);
       } finally {
