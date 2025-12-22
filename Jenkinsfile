@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    environtment {
+    environment {
     FRONTEND_IMAGE= "mern-frontend:jenkins"
     BACKEND_IMAGE= "mern-backend:jenkins"
     PORT= "5000"
